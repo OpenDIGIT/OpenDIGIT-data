@@ -1,0 +1,28 @@
+{
+  "name": "opendigit-data",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bookshelf": "^0.10.3",
+    "bookshelf-postgis": "^0.2.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.6.3",
+    "easyxml": "^2.0.1",
+    "express": "~4.15.2",
+    "jade": "^1.11.0",
+    "js2xmlparser": "^3.0.0",
+    "knex": "^0.13.0",
+    "knex-postgis": "^0.2.2",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0",
+    "object-to-xml": "^1.1.0",
+    "pg": "^6.4.0",
+    "pg-native": "^1.10.1",
+    "serve-favicon": "^2.4.3",
+    "xml": "^1.0.1"
+  }
+}
